@@ -1,2 +1,2 @@
 # colorGuessGame
-Easy script for those who wants to learn eg kids colors in English
+Easy script for those who want to learn colors in English.
