@@ -18,13 +18,16 @@ var colorPicker = {
     background.className = pickedColor;
   },
   checkResultBtn: function() {
-    
-    var inputResult = document.getElementById("inputResult");
+
+    var inputColor = document.getElementById("inputColor").value;
+
+    var inputResult = inputColor.toLowerCase();
+
     var result = document.getElementById("result");
-    
-    if (inputResult.value === "") {
+
+    if (inputResult === "") {
       result.innerHTML = "no value!!!!";
-    } else if (inputResult.value === pickedColor) {
+    } else if (inputResult === pickedColor) {
       result.innerHTML = "BRAVO THAT'S IT!!!";
     } else {
       result.innerHTML =
